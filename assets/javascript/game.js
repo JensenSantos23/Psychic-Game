@@ -12,7 +12,7 @@ document.onkeyup = function(event) {
     if (userGuess == computerGuess) {
         wins++;
         alert('Way to go! You\'ve guesesed corrrectly. You Won!');
-        guessesLeft = 9; //reseting the guesses back to 9 so that the user can play again
+        guessesLeft = 9; //resetting the guesses back to 9 so that the user can play again
         guessesSoFar.length = 0; //this removes everything from the guesses so far array, so that the guesses from the previous round don't show
     }
     else if (guessesLeft == 0){
